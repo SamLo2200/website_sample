@@ -39,7 +39,7 @@ export default function Home() {
             <h1 className="text-brand-gold font-bold text-3xl">All Brands</h1>
 
             {/* Fancy horizontal line svg */}
-            <div className="max-w-[249px] my-1">
+            <div className="max-w-[249px] my-3">
               <Image
                 src="fancy_hr.svg"
                 alt="Fancy Horizontal Line"
