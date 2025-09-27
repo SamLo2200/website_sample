@@ -55,7 +55,7 @@ export default function Home() {
               <h2 className="text-2xl text-brand-gold mb-4">Hot Brands</h2>
               <hr className="text-gray-200"></hr>
 
-              <div className="flex flex-wrap flex-row py-9">
+              <div className="flex flex-wrap flex-row py-7">
                 {hotBrands.map((brand: HotBrand) => (
                   <div
                     key={brand.name}
@@ -84,7 +84,7 @@ export default function Home() {
 
               {/* Crate alphabetized groups */}
 
-              <div className="grid grid-cols-1 gap-y-11 py-9">
+              <div className="grid grid-cols-1 gap-y-11 py-7ch">
                 {Object.entries(groupedBrands).map(([letter, brands]) => (
                   <div key={letter}>
                     <h3 className="text-2xl mb-2 text-brand-gold">{letter}</h3>
