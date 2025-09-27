@@ -84,7 +84,7 @@ export default function Home() {
 
               {/* Crate alphabetized groups */}
 
-              <div className="grid grid-cols-1 gap-y-11 py-7ch">
+              <div className="grid grid-cols-1 gap-y-11 py-7">
                 {Object.entries(groupedBrands).map(([letter, brands]) => (
                   <div key={letter}>
                     <h3 className="text-2xl mb-2 text-brand-gold">{letter}</h3>
